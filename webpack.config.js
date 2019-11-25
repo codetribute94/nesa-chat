@@ -14,5 +14,10 @@ module.exports = {
       template: './src/index.html',
     }),
     new VueLoaderPlugin(),
-  ]
+  ],
+  resolve: {
+    alias: {
+      'vue$' : 'vue/dist/vue.js'
+    }
+  }
 };
