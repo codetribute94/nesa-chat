@@ -1,4 +1,4 @@
-import login from "../views/Login.vue "
+import login from "../views/Login.vue"
 
 export default {
     route: {
