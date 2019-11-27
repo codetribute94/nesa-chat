@@ -3,6 +3,7 @@ import login from "./routes/Login.js"
 import App from './App.vue';
 import VueRouter from "vue-router";
 
+
 const routes = [
     login.route
 ];

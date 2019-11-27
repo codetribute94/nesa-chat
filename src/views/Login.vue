@@ -1,5 +1,7 @@
 <template>
+
     <div>
+        <navbar></navbar>
         <form class="box" action="" method="POST">
 
             <h1>Login</h1>
@@ -14,8 +16,13 @@
 </template>
 
 <script>
+    import Navbar from "../components/Navbar.vue";
+
     export default {
-        name: "Login"
+        name: "Login",
+        components: {
+            Navbar
+        }
     }
 </script>
 
@@ -44,7 +51,7 @@
         margin: 20px auto;
         text-align: center;
         border: 2px solid  #3489db;
-        padding: 14px 40px;
+        padding: 12px 15px;
         width: 200px;
         outline: none;
         color: white;
