@@ -9,6 +9,14 @@
         <input class="types" type="password" name="" placeholder="confirm password">
         <input type="submit" name="" value="signup">
     </form>
+    <footer class="d-flex-r clear container text-white">
+       <div class="copyright">
+            <p>Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+            <p>Built With Love from Nesa Cohort 9</p>
+            <a href="#mypage"><div id="backtoptop"><i class="fa fa-chevron-up"></i></div></a>
+        </div>
+    </footer>
+
 </div>
 </template>
 
