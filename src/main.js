@@ -1,11 +1,14 @@
 import Vue from "vue";
-import login from "./routes/Login.js"
+import login from "./routes/Login.js";
+import signup from "./routes/signup.js";
 import App from './App.vue';
 import VueRouter from "vue-router";
+import footer from "./component/footer.vue"
 
 
 const routes = [
-    login.route
+    login.route,
+    signup.route
 ];
 
 const router = new VueRouter({
