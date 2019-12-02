@@ -16,7 +16,6 @@
             <a href="#mypage"><div id="backtoptop"><i class="fa fa-chevron-up"></i></div></a>
         </div>
     </footer>
-
 </div>
 </template>
 
@@ -30,12 +29,9 @@
 .box{
     width: 320px;
     padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
     background: #191919;
     text-align: center;
-    transform: translate(-50%, -50%);
+    margin: 60px auto;
 }
 
 .box h1{
@@ -76,5 +72,14 @@
     border-radius: 24px;
     cursor: pointer;
     transition: 0.25s;
+}
+.container{
+    margin-top: 30px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    background: #34495e;
+    color: white;
 }
 </style>
