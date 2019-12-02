@@ -5,6 +5,7 @@ import App from './App.vue';
 import VueRouter from "vue-router";
 import footer from "./component/footer.vue"
 
+
 const routes = [
     login.route,
     signup.route
