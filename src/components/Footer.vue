@@ -20,5 +20,6 @@
     justify-content: space-around;
     background: #34495e;
     color: white;
+    margin-bottom: 20px;
 }
 </style>

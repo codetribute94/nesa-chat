@@ -3,7 +3,6 @@ import login from "./routes/Login.js";
 import signup from "./routes/signup.js";
 import App from './App.vue';
 import VueRouter from "vue-router";
-import footer from "./component/footer.vue"
 
 
 const routes = [
