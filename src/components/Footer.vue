@@ -17,9 +17,14 @@
 <style scoped>
 .copyright{
     display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
     justify-content: space-around;
+    text-align: center;
     background: #34495e;
     color: white;
-    margin-bottom: 20px;
 }
 </style>
