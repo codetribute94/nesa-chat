@@ -11,6 +11,7 @@
 </template>
 
 <script>
+    import {mapState} from 'vuex';
     export default {
         name: "Navbar"
     }
@@ -42,9 +43,6 @@
     li a{
         text-decoration: none;
     }
-
-
-
 
 
 
